@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script defer src="./main.js"></script>
+    <title>MI PRIMERA PAGINA</title>
+</head>
+<body>
+    <header>
+        <div class="logo"> 
+            <img src="./imagenes/LOGO ACUPUNTURA.jpeg" alt="logo">    
+          </div>
+        <nav>
+            <div>
+                <ul>
+                    <a href="file:///C:/Users/admi/Documents/HTML/index.html"> <li>INICIO</li> </a>
+                    <a href="https://www.cancer.gov/espanol/cancer/tratamiento/mca/paciente/acupuntura-pdq#:~:text=es%20la%20acupuntura%3F-,La%20acupuntura%20es%20la%20aplicaci%C3%B3n%20de%20agujas%2C%20calor%2C%20presi%C3%B3n%20y,medicina%20tradicional%20china%20(MTC)."><li>TRATAMIENTOS</li></a>
+                    <a href="https://m.facebook.com/p/Acudharma-100083073441619/"><li>QUIENES SOMOS</li></a>
+                    <a href="#contactanos"><li>CONTACTANOS</li></a>
+            
+                </ul>
+              </div>
+        </nav>
+    </header>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./imagenes/carrusel1.jpg" class="d-block w-100" alt="acupuntura">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/carrusel2.jpg" class="d-block w-100" alt="ventosas">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/carrusel3.jpg" class="d-block w-100" alt="terapia">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  <div class="titulo">
+       <img src="./imagenes/agujas1.jpg" alt="agujas">
+       <h1>ACUPUNTURA</h1>
+       <p>La acupuntura es la aplicación de agujas, calor, presión y otros tratamientos en lugares de la piel llamados puntos de acupuntura (o acupuntos) para controlar síntomas como dolor, o náuseas y vómitos. La acupuntura forma parte de la medicina tradicional china </p>
+       <p>La acupuntura se basa en la creencia de que el qi (la energía vital) fluye por el organismo a través de canales que se llaman meridianos. Se dice que el qi afecta tanto el estado espiritual, emocional y mental como la salud física de una persona.</p>
+  </div>
+   
+       <h2>TRATAMIENTOS</h2>
+<div class="contenedor">
+    <div class="caja">
+        <img src="./imagenes/auricular.jpg" alt="auricular">
+        <H2>Acupuntura auricular</H2>
+        <div id="informacion">
+        <p>colocación de agujas de acupuntura en acupuntos de la parte externa de la oreja que corresponden a determinadas partes del cuerpo.</p>
+      </div>
+       <button onclick='muestra_oculta("informacion")' class="btn btn-primary" form="informacion" >+</button>
+        </div>
+        
+    <div class="caja">
+        <img src="./imagenes/electroacupuntura.jpg"alt="electroacupuntura">
+        <h2>Electroacupuntura</h2>
+        <div id="informacion1">
+        <p>Procedimiento mediante el que se envían señales débiles de corriente eléctrica a través de agujas de acupuntura hacia puntos de acupuntura de la piel</p>
+      </div>
+      <button onclick='muestra_oculta("informacion1")' class="btn btn-primary" form="informacion1" >+</button>
+    </div>
+    <div class="caja">
+        <img src="./imagenes/punto desencadenante..jpg"alt="punto desencadenante">
+        <h2>Acupuntura de punto desencadenante</h2>
+        <div id="informacion2">
+        <p> Los puntos desencadenantes son lugares del cuerpo donde se ha producido una lesión, pero el dolor se ha desplazado a lo largo de los nervios y se siente en otro lugar del cuerpo.</p>
+      </div>
+      <button onclick='muestra_oculta("informacion2")' class="btn btn-primary" form="informacion2" >+</button>
+    </div>
+  </div>
+
+    <div class="contenedor2">
+    <div class="caja2">
+        <img src="./imagenes/Acupuntura con láser..jpg"alt="Acupuntura láser">
+        <h2>Acupuntura con láser.</h2>
+        <p>Uso de un rayo láser de baja potencia, en lugar de una aguja de acupuntura, para estimular un punto de acupuntura.</p>
+    </div> 
+    <div class="caja2">
+        <img src="./imagenes/Inyección en puntos de acupuntura..jpg"alt="Inyección puntos">
+        <h2>Inyección en puntos de acupuntura.</h2>
+        <p>se inyectan medicamentos, vitaminas, extractos de hierbas u otros líquidos en el cuerpo en un punto de acupuntura, por medio de una jeringa y una aguja.</p>
+    </div>
+    <div class="caja2">
+        <img src="./imagenes/Acupresión.jpg"alt="Acupresión">
+        <h2>Acupresión</h2>
+        <p>Aplicación de presión o masaje localizado en lugares específicos del cuerpo para controlar síntomas tales como el dolor o la náusea</p>
+    </div>
+</div>
+    <div class="caja3">
+        <img src="./imagenes/Aplicación de ventosas.jpg"alt="ventosas">
+        <h2>Aplicación de ventosas.</h2>
+        <p>Procedimiento para el que se calienta un vaso de vidrio redondo que se llama ventosa; esta se coloca boca abajo en una parte del cuerpo a fin de crear una succión que mantiene el vaso adherido a la piel. Las ventosas aumentan el flujo de la sangre. En la medicina tradicional china, también se cree que aumenta el flujo del qi (energía vital).</p>
+    </div>
+
+    <div id="contactanos">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.2305018210395!2d-99.13947672573728!3d19.488716438888247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f9af6fd5ed49%3A0xe06cc52d4e1a1e4a!2sACUDHARMA%20-%20Acupuntura!5e0!3m2!1ses-419!2smx!4v1708639786439!5m2!1ses-419!2smx" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe width="500" height="300" src="https://www.youtube.com/embed/b1kHnU2zblc?si=qXZWgJFjwsG6mxvl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+ <div class="container bg-secondary"> 
+  <footer>
+      "Somos profesionales de la salud enfocados en mejorar tu calidad de vida"
+  </footer>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
